@@ -1,16 +1,16 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Arunpranav",
+  lastName: "Ks",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "AWS & DevSecOps | Security Analyst",
+  avatar: "/images/arun.jpeg",
+  email: "arunpranav0803@gmail.com",
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Tamil"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -18,8 +18,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I protect AWS clouds by day (with code & tools like Wazuh) and automate security headaches away by night.
     </>
   ),
 };
@@ -30,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/arunpranav-ks-b706b0245/",
   },
   {
     name: "X",
@@ -55,16 +54,14 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
-  featured: {
-    display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
-  },
+  headline: <>Securing AWS & Java apps with DevSecOps agility.</>,
+
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I protect AWS clouds by day (with code & tools like Wazuh) 
+      <br /> 
+      and automate security headaches away by night.
+      
     </>
   ),
 };
@@ -90,9 +87,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+     Arunpranav KS is a DevSecOps & Cloud Security Engineer who bridges the gap between security and automation. His expertise lies in hardening AWS environments, threat detection, and secure CI/CD pipelines, ensuring resilient systems without compromising agility.
       </>
     ),
   },
@@ -100,100 +95,106 @@ const about = {
     display: true, // set to false to hide this section
     title: "Work Experience",
     experiences: [
-      {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
-        achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
+  {
+    company: "Cytrusst Intelligence Private Ltd",
+    timeframe: "Dec 2024 - Present",
+    role: "Security Analyst & DevSecOps",
+    achievements: [
+      <>
+        Implemented cloud security solutions in AWS, ensuring compliance and hardening environments against threats.
+      </>,
+      <>
+        Managed endpoint security using <strong>SentinelOne</strong> and <strong>ManageEngine Endpoint Central</strong>, improving threat detection efficiency.
+      </>,
+      <>
+        Automated security integration in CI/CD pipelines using <strong>Jenkins</strong>, reducing deployment risks by 25%.
+      </>,
+      <>
+        Analyzed security logs and coordinated incident response with <strong>Wazuh</strong>, minimizing system vulnerabilities.
+      </>,
     ],
+    images: [], // Optional: Add AWS/SentinelOne/Wazuh dashboard screenshots if available
+  },
+  {
+    company: "National Small Industries Corporation Ltd (NSIC)",
+    timeframe: "Nov 2022 - Dec 2022",
+    role: "UI/UX Design Intern",
+    achievements: [
+      <>
+        Designed user interfaces for enterprise projects using <strong>Figma</strong>, enhancing usability and accessibility.
+      </>,
+    ],
+    images: [], // Optional: Add Figma project mockups
+  },
+],
   },
   studies: {
-    display: true, // set to false to hide this section
-    title: "Studies",
-    institutions: [
-      {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
-    ],
-  },
+  display: true, // Set to false to hide this section
+  title: "Education",
+  institutions: [
+    {
+      name: "Bannari Amman Institute of Technology, Erode",
+      description: (
+        <>
+          <strong>B.E. Computer Science & Engineering</strong> (2020 – 2024)  
+          CGPA: 7.6 | Specialized in cloud security and DevSecOps practices.
+        </>
+      ),
+    },
+    {
+      name: "JSpiders Software Training Institute",
+      description: (
+        <>
+          <strong>DevOps Engineer</strong> (Aug 2024 – Nov 2024)  
+          <strong>Java Full Stack Development</strong> (Jun 2024 – Nov 2024)  
+          Gained hands-on expertise in AWS, Jenkins, and Spring Boot.
+        </>
+      ),
+    },
+  ],
+},
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
-    skills: [
-      {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-    ],
-  },
+  display: true, // Set to false to hide this section
+  title: "Technical Skills",
+  skills: [
+    {
+      title: "AWS & Cloud Security",
+      description: (
+        <>
+          Hardening environments with <strong>EC2, S3, IAM, CloudFormation</strong>, and enforcing compliance via <strong>CloudWatch</strong> and <strong>Wazuh</strong>.
+        </>
+      ),
+      images: [], // Optional: Add AWS architecture diagrams or security dashboards
+    },
+    {
+      title: "DevSecOps & CI/CD",
+      description: (
+        <>
+          Automating secure pipelines with <strong>Jenkins</strong>, <strong>Docker</strong>, and <strong>Ansible</strong> to reduce deployment risks by 30%.
+        </>
+      ),
+      images: [], // Optional: Add CI/CD workflow screenshots
+    },
+    {
+      title: "Endpoint Security",
+      description: (
+        <>
+          Threat hunting and response using <strong>SentinelOne</strong> and <strong>ManageEngine</strong>, with 95% detection accuracy.
+        </>
+      ),
+      images: [], // Optional: Add threat analysis reports
+    },
+    {
+      title: "Java Full Stack",
+      description: (
+        <>
+          Building scalable apps with <strong>Spring Boot</strong>, <strong>React.js</strong>, and <strong>PostgreSQL</strong>.
+        </>
+      ),
+      images: [], // Optional: Add project snapshots
+    },
+  ],
+},
 };
 
 const blog = {
