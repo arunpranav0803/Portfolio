@@ -157,8 +157,17 @@ const about = {
     role: "UI/UX Design Intern",
     achievements: [
       <>
-        Designed user interfaces for enterprise projects using <strong>Figma</strong>, enhancing usability and accessibility.
-      </>,
+      Designed user interfaces for enterprise projects using <strong>Figma</strong>, enhancing usability and accessibility.
+    </>,
+    <>
+      Created interactive prototypes and wireframes in <strong>Figma</strong> to effectively communicate design concepts and workflows to stakeholders.
+    </>,
+    <>
+      Collaborated with cross-functional teams by sharing design files and gathering feedback directly within <strong>Figma</strong>, accelerating the design iteration process.
+    </>,
+    <>
+      Implemented design systems and reusable components in <strong>Figma</strong> to maintain consistency across multiple projects.
+    </>,
     ],
     images: [], // Optional: Add Figma project mockups
   },
@@ -284,7 +293,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "My Journey from Computer Science Graduate to DevSecOps | Security Analyst",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
