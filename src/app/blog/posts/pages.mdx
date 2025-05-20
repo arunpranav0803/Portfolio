@@ -1,55 +1,92 @@
 ---
-title: "Enable or disable pages for your portfolio"
-summary: "Magic Portfolio's RouteGuard component takes care of conditionally rendering pages based on your settings."
-publishedAt: "2025-04-22"
-tag: "Magic Portfolio"
+title: "Life as a DevSecOps Engineer at Cytrusst"
+summary: "A deep dive into what I do as a Security Analyst & DevSecOps Engineer, including the tools and services I use daily."
+image: "/images/projects/project-01/cover-01.jpg"
+publishedAt: "2025-05-19"
+tag: "DevSecOps Role"
 ---
 
-## Enable or disable pages
+## Breaking Into the Industry
 
-Magic Portfolio's `RouteGuard` component takes care of conditionally rendering pages based on the `routes` object in the `resources/config.js` file.
+After months of learning and multiple interviews, I finally joined **Cytrusst Intelligence Pvt. Ltd** — a **cybersecurity company** — as a **Security Analyst & DevSecOps Engineer**.
 
-<CodeBlock
-    marginBottom="16"
-    highlight="6"
-    codeInstances={[
-  {
-    code:
-`const routes = {
-    '/':        true,
-    '/about':   true,
-    '/work':    true,
-    '/blog':    true,
-    '/gallery': false,
-};`,
-    language: "tsx",
-    label: "src/app/resources/config.js"
-  }
-]} />
+---
 
-The code above will ensure that the `/gallery` page is not accessible and is not displayed in the navigation.
+## My Day-to-Day DevSecOps Toolbox
 
-## Add new pages
+Here's what I regularly work with across infrastructure, deployment, and security:
 
-When creating a new page, it needs to be added to the `routes` object in the `resources/config.js` file.
+### 🏗️ Infrastructure
 
-<CodeBlock
-    marginBottom="16"
-    highlight="6"
-    codeInstances={[
-  {
-    code:
-`const routes = {
-    '/':        true,
-    '/about':   true,
-    '/work':    true,
-    '/blog':    true,
-    '/gallery': false,
-    '/music': true,
-};`,
-    language: "tsx",
-    label: "src/app/resources/config.js"
-  }
-]} />
+- **Linux** (Ubuntu, Amazon Linux, RHEL)
+- **AWS EC2**: Provision secure instances
+- **VPCs**: Private subnets, NAT, IGW
+- **EBS/EFS**: Persistent storage
+- **CloudTrail**: Logging & auditing
+- **IAM**: Access control and least privilege
+- **S3 & Route53**: Object storage and DNS
 
-The code above will ensure that the `/music` page is accessible. Users will be able to navigate to it after adding it to the navigation menu in the `components/Header.tsx` file.
+### 🐳 Containers & Orchestration
+
+- **Docker**: Build and manage containers
+- **Docker Compose & Swarm**: Multi-container apps
+- **EKS**:
+  - Deploy Kubernetes workloads
+  - Use **PV/PVC**, **ConfigMaps**, **Secrets**
+  - **Horizontal Pod Autoscaler (HPA)**
+  - **ArgoCD**: GitOps-based deployment
+
+### 🔁 CI/CD Pipelines
+
+- **Jenkins**: Build, test, deploy pipelines
+- **GitHub**: Version control & PR workflows
+- **Terraform**: Infrastructure as Code (IaC)
+- **Ansible**: Configuration management
+
+### 🛡️ Security Operations
+
+- **SentinelOne EDR**: Endpoint detection & response
+- **Wazuh SIEM**: Threat detection & log analysis
+- **ManageEngine Endpoint Central**: Asset & patch management
+- **Nessus**: Vulnerability scanning
+- **CrowdSec**: Behavioral-based security
+
+### 🌐 Web Layer
+
+- **NGINX**:
+  - Reverse proxy
+  - SSL/TLS setup (Let's Encrypt)
+  - Load balancing
+
+### 📋 Workflow Management
+
+- **Jira**:
+  - Access, change, and incident management
+  - Agile workflows for tracking and execution
+
+---
+
+## What I’ve Learned
+
+Security and DevOps go hand in hand. It’s not just about uptime or automation — **it’s about securing every layer** while making delivery fast and efficient.
+
+If you're aiming for a DevSecOps role, get comfortable with:
+
+- **Cloud (AWS)**
+- **Linux command line**
+- **CI/CD**
+- **Security tools**
+- **Scripting (Bash or Python)**
+
+---
+
+**Looking Ahead 👨‍💻**
+
+Every day is a new challenge — whether it’s integrating a new tool or mitigating a vulnerability. But I wouldn’t have it any other way.
+
+If this path excites you, **start small and be consistent**. DevSecOps isn’t a sprint — it’s a long game of learning, adapting, and automating.
+
+---
+
+**Thanks for reading 🚀**  
+Feel free to connect or DM me on [LinkedIn](https://www.linkedin.com) or [Instagram](https://www.instagram.com)!
