@@ -1,13 +1,15 @@
 {
   "name": "@once-ui-system/magic-portfolio",
   "version": "2.0.0",
+  "homepage": "https://arunpranav0803.github.io/portfolio",
+
   "scripts": {
-    "dev": "next dev",
-    "export": "next export",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "deploy": "npm run build && npm run export && gh-pages -d out"
+},
+
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.2",
     "@mdx-js/loader": "^3.1.0",
@@ -36,6 +38,7 @@
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.6",
     "eslint": "^9.25.0",
+    "gh-pages": "^6.3.0",
     "postcss-custom-media": "^10.0.8",
     "postcss-flexbugs-fixes": "^5.0.2",
     "typescript": "^5.8.3"
