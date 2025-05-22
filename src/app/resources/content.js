@@ -18,7 +18,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I Protect AWS cloud by day (with code & tools) and automate security Headaches away by Night !!
+      I secure the cloud. I automate the chaos.
     </>
   ),
 };
@@ -55,7 +55,10 @@ const home = {
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Zero-trust, full-speed  securing AWS in real time.</>,
-
+featured:{
+  href:"",
+  title:""
+},
   subline: (
     <>
       Cloud-native. Security-first. DevSecOps always.<br/>
@@ -293,7 +296,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "My Journey from Computer Science Graduate to DevSecOps | Security Analyst",
+  title: "Becoming a DevSecOps Engineer: My Personal Playbook",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
