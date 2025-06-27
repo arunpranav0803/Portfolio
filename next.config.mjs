@@ -1,17 +1,18 @@
-import mdx from "@next/mdx";
+// next.config.js
+import withMDX from '@next/mdx' // This is a function that returns a config enhancer
 
-const withMDX = mdx({
+const withMDXConfig = withMDX({
   extension: /\.mdx?$/,
-  options: {},
-});
+  options: {}, // mdx options here, if needed
+})
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // Needed for static HTML export
-  basePath: "/portfolio", // GitHub Pages subfolder
-  assetPrefix: "/portfolio", // Ensures assets resolve correctly
+  output: "export", // For static HTML export
+  basePath: "", // Change to "/portfolio" if deploying under sub-path
+  assetPrefix: "/", // Match basePath if using it
   images: {
-    unoptimized: true, // Required for static exports
+    unoptimized: true,
   },
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   transpilePackages: ["next-mdx-remote"],
@@ -21,4 +22,5 @@ const nextConfig = {
   },
 };
 
-export default withMDX(nextConfig);
+
+export default withMDXConfig(nextConfig)

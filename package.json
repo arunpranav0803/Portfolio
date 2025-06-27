@@ -1,7 +1,7 @@
 {
   "name": "@once-ui-system/magic-portfolio",
   "version": "2.0.0",
-  "homepage": "https://arunpranav0803.github.io/portfolio",
+  "homepage": "https://arunpranav0803.github.io",
 
   "scripts": {
   "dev": "next dev",
